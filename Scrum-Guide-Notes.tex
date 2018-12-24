@@ -1,0 +1,426 @@
+\documentclass[a4paper,11pt,twocolumn]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.8cm, right=1.8cm, top=3cm, bottom=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{url}
+
+% Set page numbers to show "Page X of Y"
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+% Change section format
+\titleformat{\section}
+  {\normalfont\large\bfseries}{\thesection}{1em}{}[{\vspace{0.3em}\titlerule[2pt]\vspace{0em}}]
+
+% Change list format
+\setlist[1]{itemsep=-2pt}
+\setlist[itemize,1]{leftmargin=*}
+
+% Change list icon to simple dash
+\renewcommand\labelitemi{-}
+
+% Set column spacing
+\setlength{\columnsep}{1.5cm}
+
+% Change paragraph identation
+\parindent 0mm
+
+\title{\textbf{Scrum Guide Notes} \vspace{-1ex}}
+\author{Vasileios Papadopoulos}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+% Set first page style to "fancy" as it will display a different page number by default
+\thispagestyle{fancy}
+
+\section*{Definition of Scrum}
+\textit{Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.}
+
+\section*{Scrum Characteristics}
+\begin{itemize}
+	\item Lightweight
+	\item Simple to understand
+	\item Difficult to master
+\end{itemize}
+
+\section*{Empiricism}
+\textit{Knowledge comes from experience and making decisions on what is known.}
+
+\section*{Scrum Consists of}
+\begin{itemize}
+	\item Roles
+	\item Events
+	\item Artifacts
+	\item Rules
+\end{itemize}
+
+\section*{Scrum Optimizes}
+\begin{itemize}
+	\item Flexibility
+	\item Creativity
+	\item Productivity
+\end{itemize}
+
+\section*{Three Pillars of Scrum}
+\begin{itemize}
+	\item \textbf{Transparency}\\
+	Make significant aspects of the process visible to those responsible for the outcome
+	\item \textbf{Inspection}\\
+		Frequently inspect the progress towards a goal to detect undesirable variances
+	\item \textbf{Adaption}\\
+	Adjust the process as soon as possible to minimize further deviation
+\end{itemize}
+
+\section*{Scrum Values}
+\begin{itemize}
+    \item \textbf{Commitment}\\
+    People personally commit to achieving the goals of the Scrum Team
+    \item \textbf{Courage}\\
+    The Scrum Team members have courage to do the right thing and work on tough problems
+    \item \textbf{Focus}\\
+    Everyone focuses on the work of the Sprint and the goals of the Scrum Team
+    \item \textbf{Openness}\\
+    The Scrum Team and its stakeholders agree to be open about all the work and the challenges with performing the work
+    \item \textbf{Respect}\\
+    Scrum Team members respect each other to be capable, independent people
+\end{itemize}
+
+\section*{The Scrum Team}
+\begin{itemize}
+    \item Product Owner
+    \item Development Team
+    \item Scrum Master
+\end{itemize}
+
+\section*{Scrum Team Characteristics}
+\begin{itemize}
+	\item Deliver products \textit{iteratively} and \textit{incrementally}
+	\item Self-organizing
+	\item Cross-functional
+\end{itemize}
+
+\section*{Self-organization}
+\textit{Self-organizing teams choose how best to accomplish their work, rather than being directed by others outside the team.}
+
+\section*{Cross-functionality}
+\textit{Cross-functional teams have all competencies needed to accomplish the work without depending on others not part of the team.}
+
+\section*{The Product Owner}
+\begin{itemize}
+    \item Responsible for maximizing the value of the product resulting from work of the development team
+    \item The \textbf{only} person responsible for managing the Product Backlog
+	\item \textbf{One person}, not a committee
+	\item His/her decisions are visible in the content and ordering of the Product Backlog
+	\item The Product Owner may have the Development Team manage the Product Backlog however, they remain \textbf{accountable}
+\end{itemize}
+
+\section*{Product Backlog Management}
+\begin{itemize}
+    \item Clearly expressing Product Backlog Items
+    \item Ordering the items in the Product Backlog to best achieve goals and missions
+    \item Optimizing the value of work the Development Team performs
+    \item Ensuring that the Product Backlog is visible, transparent, clear to all and shows what the Scrum Team will work on next
+    \item Ensuring that the Development Team understands the Product Backlog to the level needed
+\end{itemize}
+
+\section*{The Development Team}
+\begin{itemize}
+	\item Delivers a \textit{potentially releasable} Increment of ``Done'' product at the end of each Sprint 
+	\item Only members of the Development Team create the Increment
+    \item Size: 3 to 9 members
+\end{itemize}
+
+\section*{Development Team Characteristics}
+\begin{itemize}
+    \item Self-organizing
+    \item Cross-functional
+	\item Scrum recognizes no titles for Development Team members
+	\item Scrum recognizes no sub-teams in the Development Team
+	\item Accountability belongs \textbf{to the team} as a whole
+\end{itemize}
+
+\section*{The Scrum Master}
+\begin{itemize}
+    \item Promotes and supports Scrum
+    \item Helps everyone understand Scrum theory, practices and rules 
+    \item Acts as a \textit{Servant-Leader} for the Scrum Team
+    \item Helps those outside the Scrum Team understand which interactions are helpful and which aren't
+\end{itemize}
+
+\section*{Scrum Master - Product Owner}
+\begin{itemize}
+    \item Ensure that goals, scope, and product domain are understood by everyone on the Scrum Team as well as possible
+    \item Find techniques for effective Product Backlog management
+    \item Help the Scrum Team understand the need for clear and concise Product Backlog Items
+    \item Understand product planning in an empirical environment
+    \item Ensuring the Product Owner knows how to arrange the Product Backlog to maximize value
+    \item Understanding and practicing agility
+    \item Facilitating Scrum events as requested or needed
+\end{itemize}
+
+\section*{Scrum Master - Development Team}
+\begin{itemize}
+    \item Coaches the Development Team in self-organization and cross-functionality
+    \item Helps the Development Team to create high-value products
+    \item Removes impediments to the Development Team's progress
+    \item Facilitates Scrum events as requested or needed
+    \item Coaches the Development Team in organizational environments in which Scrum is not yet fully adopted and understood
+\end{itemize}
+
+\section*{Scrum Master - Organization}
+\begin{itemize}
+    \item Leads and coaches the organization in its Scrum adoption
+    \item Plans Scrum implementations within the organization
+    \item Helps employees and stakeholders understand and enact Scrum and empirical product development
+    \item Causes change that increases the productivity of the Scrum Team
+    \item Works with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization
+\end{itemize}
+
+\section*{Scrum Events}
+\begin{itemize}
+    \item The Sprint
+	\item Sprint Planning
+	\item Daily Scrum
+	\item Sprint Review
+	\item Sprint Retrospective
+\end{itemize}
+
+\section*{Scrum Event Characteristics}
+\begin{itemize}
+    \item Create regularity
+	\item Minimize the need for meetings not defined in Scrum
+	\item Time-boxed (Have max duration)
+	\item Each event is an opportunity to inspect and adapt something
+	\item Failure to include any of these events results in reduced transparency
+\end{itemize}
+
+\section*{The Sprint}
+\begin{itemize}
+    \item Acts as a container for all other events
+	\item Duration: One month or less (consistent duration)
+	\item A new sprint starts immediately after the conclusion of the previous Sprint
+	\item A ``Done'', potentially releasable Product Increment is created
+	\item Consists of:
+	\vspace{-1em}
+    \begin{itemize}
+        \setlength\itemsep{0em}
+        \item Sprint Planning
+        \item Daily Scrums
+        \item Development Work
+        \item Sprint Review
+        \item Sprint Retrospective
+    \end{itemize}
+\end{itemize}
+
+\section*{During the Sprint}
+\begin{itemize}
+    \item No changes are made that would endanger the Sprint Goal
+	\item Quality goals do not decrease
+	\item Scope may be clarified and re-negotiated between the Product Owner and the Development Team as more is learned
+\end{itemize}
+
+\section*{Cancelling a Sprint}
+\begin{itemize}
+    \item \textbf{Only} the Product Owner has the authority to cancel a Sprint
+	\item The Sprint is cancelled if the Sprint Goal becomes \textit{obsolete}
+	\item Any completed and ``Done'' Product Backlog items are reviewed
+    \item If part of the work is potentially releasable, the Product Owner typically accepts it
+    \item All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog
+\end{itemize}
+
+\section*{Sprint Planning}
+\begin{itemize}
+    \item What can be delivered in the Increment resulting from the upcoming Sprint?
+	\item How will the work needed to deliver the Increment be achieved?
+	\item The plan is created by the collaborative work of the entire Scrum Team
+	\item Max duration: 8 hours for one-month Sprint
+	\item Attendees: All Scrum Team members
+\end{itemize}
+
+\section*{Sprint Planning - Input}
+\begin{itemize}
+    \item Product Backlog
+    \item Latest Product Increment
+    \item Projected capacity of the Development Team during the Sprint
+    \item Past Performance of the Development Team
+\end{itemize}
+
+\section*{Sprint Planning - Notes}
+\begin{itemize}
+    \item The number of items selected from the Product Backlog for the Sprint is \textbf{solely} up to the Development Team
+	\item The Product Owner can help to clarify selected Product Backlog Items and make trade-offs
+	\item The Development Team may renegotiate selected Product Backlog Items with the Product Owner
+	\item The Development Team may invite other people to attend to provide technical or domain advice
+	\item Output: \textit{Sprint Backlog} and \textit{Sprint Goal}
+\end{itemize}
+
+\section*{Sprint Backlog}
+\begin{itemize}
+    \item The Product Backlog Items selected for this Sprint
+    \item A plan for delivering them
+\end{itemize}
+
+\section*{Sprint Goal}
+\begin{itemize}
+    \item An objective that will be met within the Sprint through the implementation of the selected Product Backlog Items
+    \item Provides guidance to the Development Team on \textit{why} it is building the Increment
+\end{itemize}
+
+\section*{Daily Scrum}
+\begin{itemize}
+    \item Held every day of the Sprint at the same place and time
+    \item The Development Team plans work for the next 24 hours
+	\item Max duration: 15 minutes
+	\item Attendees: All Development Team members
+\end{itemize}
+
+\section*{Daily Scrum - Notes}
+\begin{itemize}
+	\item The Scrum Master ensures that the Development Team has the meeting but the Development Team is \textbf{responsible for conducting} the Daily Scrum
+	\item The Scrum Master teaches the team to keep the Daily Scrum within the 15-minute time-box
+	\item The Development Team or team members often meet immediately after the Daily Scrum for related discussions
+    \item It is an internal meeting for the Development Team. If others are present, the Scrum Master ensures they \textbf{do not disrupt} the meeting
+\end{itemize}
+
+\section*{Daily Scrum - Benefits}
+\begin{itemize}
+	\item Improve communications
+	\item Eliminate other meetings
+	\item Identify impediments to development for removal
+	\item Highlight and promote quick decision-making
+	\item Improve the Development Team's level of knowledge
+\end{itemize}
+
+\section*{Sprint Review}
+\begin{itemize}
+	\item Held at the end of each Sprint
+	\item Inspect the Increment and adapt the Product Backlog if needed
+	\item Collaborate on the next things that could be done to optimize value
+	\item Max duration: 4 hours for a one-month Sprint
+	\item Attendees: All Scrum Team members and Stakeholders\\
+	(Invited by the Product Owner)
+\end{itemize}
+
+\section*{Sprint Review - Notes}
+\begin{itemize}
+	\item The Sprint Review is \textbf{not a demo}
+	\item The presentation of the Increment is intended to elicit feedback and foster collaboration
+	\item Result: A revised Product Backlog that defines the \textit{probable} Product Backlog Items for the next Sprint
+\end{itemize}
+
+\section*{Sprint Review - Scrum Master}
+\begin{itemize}
+	\item Ensures that the event takes place
+	\item Everyone understands its purpose
+	\item Teaches everyone to keep it within the time-limit
+\end{itemize}
+
+\section*{Sprint Retrospective}
+\begin{itemize}
+	\item Occurs after the Sprint Review and prior to the next Sprint Planning
+	\item Identify how the last Sprint went with regards to people, relationships, processes and tools
+	\item Identify and order the major items that went well and potential improvements
+	\item Create a \textit{plan} fir implementing improvements to the way the Scrum Team does its work
+	\item Max duration: 3 hours for a one-month Sprint
+	\item Attendees: All Scrum Team members
+\end{itemize}
+
+\section*{Sprint Retrospective - Scrum Master}
+\begin{itemize}
+	\item Ensures that the event takes place and attendands understand its purpose
+	\item Ensures that the meeting is \textit{positive} and \textit{productive}
+	\item Teaches everyone to keep it within the time-box
+	\item Participates as peer team member from the accountability ove the Scrum process
+	\item Encourages the Scrum Team to improve
+\end{itemize}
+
+\textit{Note: During each Sprint Retrospective, the Scrum Team plans ways to increase product quality by improving work processes or adapting the definition of ``Done'' if appropriate and not in conflict with the product or organizational standards}
+
+\section*{Scrum Artifacts}
+\begin{itemize}
+	\item Product Backlog
+	\item Sprint Backlog
+	\item Increment
+\end{itemize}
+
+\section*{Product Backlog}
+\begin{itemize}
+	\item Ordered list of everything known to be needed in the Product
+	\item Single source of requirements for any changes to be made to the Product
+	\item It is dynamic (evolves)
+	\item It is never complete
+	\item If a Product exists, a Product Backlog exists too
+\end{itemize}
+
+\textit{Note: If multiple Scrum Teams work on the same Product, only one Product Backlog is used}
+
+\section*{Product Backlog Items - Attributes}
+\begin{itemize}
+	\item Description
+    \item Order
+    \item Estimate
+    \item Value
+    \item May also include test descriptions that will prove the item's completeness when ``Done''
+\end{itemize}
+
+\section*{Product Backlog Refinement}
+\begin{itemize}
+	\item The act of adding \textbf{detail}, \textbf{estimates}, and \textbf{order} to items in the Product Backlog
+	\item The Product Owner and the Development Team cooperate during refinement
+	\item The Scrum Team decides \textit{how} and \textit{when} refinement is done
+	\item \textit{Usually} consumes no more than 10\% of the Development Team's capacity
+\end{itemize}
+
+\section*{Product Backlog Refinement - Notes}
+\begin{itemize}
+	\item Product Backlog Items can be updated anytime by the Product Owner or at the Product Owner's discretion
+	\item \textbf{Only} the Development Team is responsible for any estimates
+\end{itemize}
+
+\section*{Sprint Backlog}
+\begin{itemize}
+	\item The set of Product Backlog Items selected for the Sprint
+	\item A plan for delivering the Increment and realizing the Sprint Goal
+	\item Includes at least one high priority process improvement identified in the previous Retrospective meeting
+	\item Belongs \textbf{solely} to the Development Team
+	\item Only the Development Team can change the Sprint Backlog during a Sprint
+\end{itemize}
+
+\section*{Increment}
+\begin{itemize}
+	\item The sum of all Product Backlog Items completed during the Sprint and the value of Increments of all previous Sprints
+	\item A step towards a vision or a goal
+	\item Must be in \textit{usable condition} regardless of whether the Product Owner decides to release it
+\end{itemize}
+
+\section*{Definition of ``Done''}
+\begin{itemize}
+	\item When a Product Backlog Item or an Increment is described as ``Done'', everyone must understand what ``Done'' means
+	\item The definition of ``Done'' is used to assess when work is complete on the product Increment
+    \item It also guides the Development Team in knowing how many Product Backlog Items it can select during a Sprint Planning
+\end{itemize}
+
+\section*{Definition of ``Done'' - Notes}
+\begin{itemize}
+    \item Multiple Scrum Teams working on the same Product should have the same definition of ``Done''
+    \item If the definition of ``Done'' is part of the conventions, standards or guidelines of the development organization, all Scrum Teams \textbf{must} follow it as a minimum
+	\item As Scrum Teams mature, it is expected that their definitions of ``Done'' will expand to include more stringent criteria for higher quality
+\end{itemize}
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+\end{document}
