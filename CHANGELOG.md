@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0 - 2018-12-26
+### Added
+- Note about Sprint Goal creation
+- Note about new DoD
+
+### Changed
+- Page margins for better reading experience
+- Reduced space between title and author
+- Added notes into gray color boxes
+
+### Fixed
+- Horizontal space between page number and "of"
+
 ## 0.3 - 2018-12-26
 ### Added
 - Product Backlog Items 

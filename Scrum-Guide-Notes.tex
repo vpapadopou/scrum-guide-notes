@@ -1,13 +1,15 @@
 \documentclass[a4paper,11pt,twocolumn]{article}
 
 \usepackage[utf8]{inputenc}
-\usepackage[left=1.8cm, right=1.8cm, top=3cm, bottom=3cm]{geometry}
+\usepackage[left=1.8cm, right=1.8cm, top=2.8cm, bottom=2.8cm]{geometry}
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
 \usepackage{url}
 
 % Set page numbers to show "Page X of Y"
@@ -15,7 +17,7 @@
 \fancyhf{}
 \fancyhead{}
 \renewcommand{\headrulewidth}{0pt}
-\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\rfoot{Page \thepage \hspace{0.5pt} of \pageref{LastPage}}
 
 % Change section format
 \titleformat{\section}
@@ -34,7 +36,7 @@
 % Change paragraph identation
 \parindent 0mm
 
-\title{\textbf{Scrum Guide Notes} \vspace{-1ex}}
+\title{\textbf{Scrum Guide Notes} \vspace{-2ex}}
 \author{Vasileios Papadopoulos}
 \date{}
 
@@ -276,6 +278,7 @@
 \begin{itemize}
     \item An \textbf{objective} that will be met within the Sprint through the implementation of the selected Product Backlog Items
     \item Provides guidance to the Development Team on \textit{why} it is building the Increment
+    \item Created by the entire Scrum Team
 \end{itemize}
 
 \section*{Daily Scrum}
@@ -346,7 +349,9 @@
 	\item Encourage the Scrum Team to improve
 \end{itemize}
 
-\textit{Note: During each Sprint Retrospective, the Scrum Team plans ways to increase product quality by improving work processes or adapting the definition of ``Done'' if appropriate and not in conflict with the product or organizational standards}
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize]
+	During each Sprint Retrospective, the Scrum Team plans ways to increase product quality by improving work processes or adapting the definition of ``Done'' if appropriate and not in conflict with the product or organizational standards
+\end{tcolorbox}
 
 \section*{Scrum Artifacts}
 \begin{itemize}
@@ -364,7 +369,9 @@
 	\item If a Product exists, a Product Backlog exists too
 \end{itemize}
 
-\textit{Note: If multiple Scrum Teams work on the same Product, \textbf{only one} Product Backlog is used}
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize]
+	If multiple Scrum Teams work on the same Product, \textbf{only one} Product Backlog is used
+\end{tcolorbox}
 
 \section*{Product Backlog Items}
 \begin{itemize}
@@ -423,6 +430,7 @@
     \item Multiple Scrum Teams working on the same Product \textbf{must} mutually define the definition of ``Done''
     \item If the definition of ``Done'' is part of the conventions, standards or guidelines of the development organization, all Scrum Teams \textbf{must} follow it as a \textit{minimum}
 	\item As Scrum Teams mature, it is expected that their definitions of ``Done'' will expand to include more stringent criteria for higher quality
+	\item A new Definition of ``Done'', as used, may uncover work to be done in previously ``Done'' Increments
 \end{itemize}
 
 \section*{Sprint Progress}
