@@ -4,6 +4,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.1 - 2019-02-17
+### Added
+- Section about Agile software development
+- Section about Agile manifesto
+- Framework explanation
+- Note about Scrum Team and Development Team
+- Note about Development Team size
+- Note about servant-leadership
+- Note about Sprint cancellations
+- Note about crafting the Sprint Goal
+- Agile Manifesto in bibliography
+
+### Changed
+- Reordered bullets in Product Backlog Management
+- Made a separate note about how the Product Owner can have the Development Team or someone else manage the Product Backlog
+- Renamed Product Backlog Management to Product Owner - Product Backlog
+
+### Fixed
+- Changed colorbox padding to better align and display content
+- Added section briefly explaining the Product Backlog near the Product Owner section
+- Clarified Sprint Backlog ownership in Sprint Backlog section
+- Minor syntactical fixes
+
+### Removed
+- Product Backlog Refinement - Notes section
+
 ## 1.0 - 2018-12-26
 ### Added
 - Note about Sprint Goal creation

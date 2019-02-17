@@ -47,8 +47,36 @@
 % Set first page style to "fancy" as it will display a different page number by default
 \thispagestyle{fancy}
 
+\section*{Agile Software Development}
+\begin{itemize}
+	\item A different approach to the software development process
+	\item Focuses on the clean delivery of individual pieces or parts of the software and \textbf{not} on the entire application
+	\item Requirements \& solutions evolve through the collaborative effort of teams and their customers and/or end users
+	\item Encourages \textit{early delivery} and \textit{continuous improvement}
+	\item The term Agile was popularized in 2001 when the \textit{Agile Manifesto} was published
+\end{itemize}
+
+\section*{Agile Manifesto}
+\begin{itemize}
+	\item \textbf{Individuals and interactions}\\
+	over processes and tools
+	\item \textbf{Working software}\\
+	over comprehensive documentation
+	\item \textbf{Customer collaboration}\\
+	over contract negotiation
+	\item \textbf{Responding to change}\\
+	over following a plan
+\end{itemize}
+
 \section*{Definition of Scrum}
 \textit{Scrum (n): A \textbf{framework} within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.}
+
+\section*{What is a framework?}
+A framework is a system of rules, ideas, or beliefs that is used to plan or decide something.
+
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	As a framework, Scrum will never provide you with exact processes or show you exactly how to deal with problems. Instead, it provides a set of rules and relies on the team to find the best possible solution
+\end{tcolorbox}
 
 \section*{Concept}
 \begin{itemize}
@@ -106,6 +134,10 @@
     \item Scrum Master
 \end{itemize}
 
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	Be careful not to confuse the \textit{Scrum Team} with the \textit{Development Team}. The Scrum Team contains the Development Team, along with the Product Owner and the Scrum Master
+\end{tcolorbox}
+
 \section*{Scrum Team Characteristics}
 \begin{itemize}
 	\item Deliver products \textit{iteratively} and \textit{incrementally}
@@ -121,14 +153,22 @@
 
 \section*{The Product Owner}
 \begin{itemize}
-    \item Responsible for maximizing the value of the product resulting from work of the development team
-    \item The \textbf{only} person responsible for managing the \textit{Product Backlog}
-	\item \textbf{One person}, not a committee
-	\item His/her decisions are visible in the content and ordering of the Product Backlog
-	\item The Product Owner may have the Development Team manage the Product Backlog however, they remain \textbf{accountable}
+    \item Responsible for maximizing the value of the product resulting from work of the Development Team
+	\item One person, not a committee
+    \item The \textbf{only} person responsible for managing the \textit{Product Backlog}. They have the final say on its content and ordering and \textit{everyone} must respect their decisions
 \end{itemize}
 
-\section*{Product Backlog Management}
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	The Product Owner may have the Development Team or someone else manage the Product Backlog. They, however, remain \textbf{accountable}
+\end{tcolorbox}
+
+\section*{Product Backlog}
+\begin{itemize}
+	\item A \textit{prioritized} list of desired product functionality
+	\item Provides a shared understanding of what is needed in the product and in which order
+\end{itemize}
+
+\section*{Product Owner - Product Backlog}
 \begin{itemize}
     \item Clearly express Product Backlog Items
     \item Order the items in the Product Backlog to best achieve goals and missions
@@ -143,6 +183,10 @@
 	\item Only members of the Development Team create the Increment
     \item Size: 3 to 9 members
 \end{itemize}
+
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	The Scrum Guide \textit{suggests} to have a Development Team of 3 to 9 members but this is not a \textit{requirement}. A Development Team can still have 15 members however, it won't be as effective.
+\end{tcolorbox}
 
 \section*{Development Team Characteristics}
 \begin{itemize}
@@ -160,6 +204,10 @@
     \item Acts as a \textit{Servant-Leader} for the Scrum Team
     \item Helps those outside the Scrum Team understand which interactions are helpful and which aren't
 \end{itemize}
+
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	As servant-leader the Scrum Master guides and coaches the Scrum Team. They are not allowed, however, to tell the team what to do or how to do it unless related to the Scrum framework
+\end{tcolorbox}
 
 \section*{Scrum Master - Product Owner}
 \begin{itemize}
@@ -242,6 +290,10 @@
     \item All incomplete Product Backlog Items are re-estimated and put back on the Product Backlog
 \end{itemize}
 
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	Sprint cancellations are often traumatic to the Scrum Team and should be avoided. They also consume resources as everyone regroups in another Sprint Planning to start another Sprint.
+\end{tcolorbox}
+
 \section*{Sprint Planning}
 \begin{itemize}
     \item What can be delivered in the Increment resulting from the upcoming Sprint?
@@ -280,6 +332,10 @@
     \item Provides guidance to the Development Team on \textit{why} it is building the Increment
     \item Created by the entire Scrum Team
 \end{itemize}
+
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	Although Sprint Planning starts by having the Product Owner discuss the objective that the Sprint should achieve and the Product backlog Items that, if completed during the Sprint, would achieve the Sprint Goal, the final Sprint Goal is created by the collaborative effort of the entire Scrum Team
+\end{tcolorbox}
 
 \section*{Daily Scrum}
 \begin{itemize}
@@ -349,7 +405,7 @@
 	\item Encourage the Scrum Team to improve
 \end{itemize}
 
-\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize]
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
 	During each Sprint Retrospective, the Scrum Team plans ways to increase product quality by improving work processes or adapting the definition of ``Done'' if appropriate and not in conflict with the product or organizational standards
 \end{tcolorbox}
 
@@ -369,7 +425,7 @@
 	\item If a Product exists, a Product Backlog exists too
 \end{itemize}
 
-\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize]
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
 	If multiple Scrum Teams work on the same Product, \textbf{only one} Product Backlog is used
 \end{tcolorbox}
 
@@ -378,6 +434,10 @@
 	\item Product Backlog items that will occupy the Development Team for the upcoming Sprint are \textit{refined} so that any one item can reasonably be ``Done'' within the Sprint
     \item Product Backlog items that can be ``Done'' by the Development Team within one Sprint are deemed ``Ready'' for selection in a Sprint Planning
 \end{itemize}
+
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	Product Backlog Items can be updated \textit{anytime} by the Product Owner or at the Product Owner's discretion
+\end{tcolorbox}
 
 \section*{Product Backlog Items - Attributes}
 \begin{itemize}
@@ -396,19 +456,16 @@
 	\item \textit{Usually} consumes no more than 10\% of the Development Team's capacity
 \end{itemize}
 
-\section*{Product Backlog Refinement - Notes}
-\begin{itemize}
-	\item Product Backlog Items can be updated \textit{anytime} by the Product Owner or at the Product Owner's discretion
-	\item \textbf{Only} the Development Team is responsible for any estimates
-\end{itemize}
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	It is the sole responsibility of the Development Team to estimate items in the Product Backlog. Although the Product Owner may influence the team by helping it understand and select trade-offs, the people who will perform the work make the final estimate
+\end{tcolorbox}
 
 \section*{Sprint Backlog}
 \begin{itemize}
 	\item The set of Product Backlog Items selected for the Sprint
 	\item A plan for delivering the Increment and realizing the Sprint Goal
 	\item Includes at least one high priority process improvement identified in the previous Retrospective meeting
-	\item Belongs \textbf{solely} to the Development Team
-	\item \textbf{Only} the Development Team can change the Sprint Backlog during a Sprint
+	\item Belongs \textbf{solely} to the Development Team. Only they can change it during a Sprint
 \end{itemize}
 
 \section*{Increment}
@@ -422,7 +479,7 @@
 \begin{itemize}
 	\item When a Product Backlog Item or an Increment is described as ``Done'', everyone must understand what ``Done'' means
 	\item The definition of ``Done'' is used to assess when work is complete on the product Increment
-    \item It also guides the Development Team in knowing how many Product Backlog Items it can select during a Sprint Planning
+    \item Guides the Development Team in knowing how many Product Backlog Items it can select during a Sprint Planning
 \end{itemize}
 
 \section*{Definition of ``Done'' - Notes}
@@ -436,13 +493,13 @@
 \section*{Sprint Progress}
 \begin{itemize}
     \item The \textit{Development Team} tracks the total work remaining in the Sprint Backlog at least every \textbf{Daily Scrum}
-    \item It then evaluates the likelihood of achieving the Sprint Goal
+    \item Helps evaluate the likelihood of achieving the Sprint Goal
 \end{itemize}
 
 \section*{Release Progress}
 \begin{itemize}
     \item The \textit{Product Owner} tracks the total work remaining to reach a goal at least every \textbf{Sprint Review}
-    \item They then compare this amount with work remaining at previous Sprint Reviews to assess progress toward completing projected work
+    \item They compare this amount with work remaining at previous Sprint Reviews to assess progress toward completing projected work
 \end{itemize}
 
 \nocite{*}
