@@ -1,4 +1,4 @@
-# Scrum Guide Notes
+## Scrum Guide Notes
 
 Current version: 1.1
 
