@@ -1,6 +1,6 @@
 ## Scrum Guide Notes
 
-Current version: 1.1
+Current version: 1.2
 
 Download: [Link](https://github.com/vpapadopou/scrum-guide-notes/raw/master/Scrum-Guide-Notes.pdf)
 
