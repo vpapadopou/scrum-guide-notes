@@ -27,6 +27,7 @@
 \setlist[1]{itemsep=-2pt}
 \setlist[itemize,1]{leftmargin=*}
 \setlist[enumerate,1]{leftmargin=*}
+\setlist[itemize,2]{label=$\diamond$,leftmargin=1em}
 
 % Change list icon to simple dash
 \renewcommand\labelitemi{-}
@@ -146,6 +147,10 @@ A Scrum Master creates an environment where:
 	\item Cross-functional
 \end{itemize}
 
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	The Scrum Guide \textit{suggests} to have a team of up to 10 members but this is not a \textit{requirement}. A Scrum Team can still have 15 members however, it won't be as effective.
+\end{tcolorbox}
+
 \section*{Self-management}
 \textit{Self-managing teams internaly decide who does \textbf{what}, \textbf{when} and \textbf{how}.}
 
@@ -158,16 +163,76 @@ A Scrum Master creates an environment where:
 	If a Scrum Team becomes too large, consider reorganizing into multiple cohesive Scrum Teams that work on the same product and share the same Product Goal, Product Backlog and Product Owner
 \end{tcolorbox}
 
+\section*{Developers}
+\begin{itemize}
+	\item The people in the Scrum Team that are committed to creating any aspect of a \textit{usable} Increment each Sprint
+\end{itemize}
+\textbf{Accountable for:}
+\begin{itemize}
+	\item Creating a plan for the Sprint - the Sprint Backlog
+	\item Instilling quality by adhering to a Definition of Done
+	\item Adapting their plan each day toward the Sprint Goal
+	\item Holding each other accountable as professionals
+\end{itemize}
+
 \section*{The Product Owner}
 \begin{itemize}
-    \item Responsible for maximizing the value of the product resulting from work of the Development Team
-	\item One person, not a committee
-    \item The \textbf{only} person responsible for managing the \textit{Product Backlog}. They have the final say on its content and ordering and \textit{everyone} must respect their decisions
+    \item Accountable for maximizing the value of the product resulting from the work of the Scrum Team
+    \item Accountable for effective Product Backlog management
+    \item One person, not a committee
+    \item Their decisions are visible in the content and ordering of the Product Backlog and through the inspectable Increment at the Sprint Review
+    \item The \textit{entire organization} must respect their decisions
+\end{itemize}
+
+\section*{Product Backlog Management}
+\begin{itemize}
+    \item Develop and explicitly communicate the \textit{Product Goal}
+    \item Create and clearly communicate Product Backlog items
+    \item Order Product Backlog items
+    \item Ensure that the Product Backlog is transparent, visible and understood
 \end{itemize}
 
 \begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
-	The Product Owner may have the Development Team or someone else manage the Product Backlog. They, however, remain \textbf{accountable}
+	The Product Owner may do the above work or may delegate the responsibility to others. They, however, remain \textbf{accountable}
 \end{tcolorbox}
+
+\section*{The Scrum Master}
+\begin{itemize}
+    \item Accountable for establishing Scrum as defined in the Scrum Guide
+    \item Helps everyone understand Scrum theory, practices and rules both within the Scrum Team and the organization
+    \item Accountable for the Scrum Team's effectiveness
+    \item \textit{Leader who serves} the Scrum Team and the larger organization
+\end{itemize}
+
+\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
+	As a leader, the Scrum Master guides and coaches the Scrum Team to improve its practices within the Scrum framework
+\end{tcolorbox}
+
+\section*{Scrum Master - Scrum Team}
+\begin{itemize}
+    \item Coaches the team members in self-management and cross-functionality
+    \item Helps the Scrum Team focus on creating high-value Increments that meet the Definition of Done
+    \item Causes the removal of impediments to the Scrum Team's progress
+    \item Ensures that all Scrum events take place and are \textit{positive}, \textit{productive} and kept within the \textit{timebox}
+\end{itemize}
+
+\section*{Scrum Master - Product Owner}
+\begin{itemize}
+		\item Helps find techniques for effective Product Goal definition and Product Backlog management
+		\item Helps the Scrum Team understand the need for clear and concise Product Backlog items
+		\item Helps establish empirical product planning for a complex environment
+		\item Facilitates stakeholder collaboration as requested or needed
+\end{itemize}
+
+\section*{Scrum Master - Organization}
+\begin{itemize}
+		\item Leads, trains and coaches the organization in its Scrum adoption
+		\item Plans and advises Scrum implementations within the organization
+		\item Helps employees and stakeholders understand and enact an empirical approach for complex work
+		\item Removes barriers between stakeholders and Scrum Teams
+\end{itemize}
+
+% ------------------
 
 \section*{Product Backlog}
 \begin{itemize}
@@ -184,66 +249,6 @@ A Scrum Master creates an environment where:
     \item Ensure that the Development Team understands the Product Backlog to the level needed
 \end{itemize}
 
-\section*{The Development Team}
-\begin{itemize}
-	\item Consists of professionals who do the work of delivering a \textit{potentially releasable} Increment of ``Done'' product at the end of each Sprint
-	\item Only members of the Development Team create the Increment
-    \item Size: 3 to 9 members
-\end{itemize}
-
-\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
-	The Scrum Guide \textit{suggests} to have a Development Team of 3 to 9 members but this is not a \textit{requirement}. A Development Team can still have 15 members however, it won't be as effective.
-\end{tcolorbox}
-
-\section*{Development Team Characteristics}
-\begin{itemize}
-    \item Self-organizing
-    \item Cross-functional
-	\item Scrum recognizes no titles for Development Team members
-	\item Scrum recognizes no sub-teams in the Development Team
-	\item Accountability belongs to the \textbf{team} as a whole
-\end{itemize}
-
-\section*{The Scrum Master}
-\begin{itemize}
-    \item Promotes and supports Scrum
-    \item Helps everyone understand Scrum theory, practices and rules 
-    \item Acts as a \textit{Servant-Leader} for the Scrum Team
-    \item Helps those outside the Scrum Team understand which interactions are helpful and which aren't
-\end{itemize}
-
-\begin{tcolorbox}[colback=black!8!white,colframe=gray!50!black,title=Note,sharp corners,fonttitle=\normalsize\bfseries,fontupper=\normalsize,left=0.7em,right=0.7em]
-	As servant-leader the Scrum Master guides and coaches the Scrum Team. They are not allowed, however, to tell the team what to do or how to do it unless related to the Scrum framework
-\end{tcolorbox}
-
-\section*{Scrum Master - Product Owner}
-\begin{itemize}
-    \item Ensure that goals, scope, and product domain are understood by everyone on the Scrum Team as well as possible
-    \item Find techniques for effective Product Backlog management
-    \item Help the Scrum Team understand the need for clear and concise Product Backlog Items
-    \item Ensure the Product Owner knows how to arrange the Product Backlog to maximize value
-    \item Understand product planning in an empirical environment
-    \item Understand and practice agility
-    \item Facilitate Scrum events as requested or needed
-\end{itemize}
-
-\section*{Scrum Master - Development Team}
-\begin{itemize}
-    \item Coach the Development Team in self-organization and cross-functionality
-    \item Help the Development Team create high-value products
-    \item Remove impediments to the Development Team's progress
-    \item Facilitate Scrum events as requested or needed
-    \item Coach the Development Team in organizational environments in which Scrum is not yet fully adopted and understood
-\end{itemize}
-
-\section*{Scrum Master - Organization}
-\begin{itemize}
-    \item Lead and coach the organization in its Scrum adoption
-    \item Plan Scrum implementations within the organization
-    \item Help employees and stakeholders understand and enact Scrum and empirical product development
-    \item Cause change that increases the productivity of the Scrum Team
-    \item Work with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization
-\end{itemize}
 
 \section*{Scrum Events}
 \begin{itemize}
